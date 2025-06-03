@@ -14,3 +14,10 @@ Percobaan 1 : Grayscale, normalisasi, ekualisasi
 Percobaan 2 : Grayscale, thresholding, filter mean, operator prewitt, normalisasi
 Percobaan 3 : Grayscale, thresholding, highlight, normalisasi
 ```
+## Anailisis Tiga Percobaan
+Berdasarkan hasil pengujian dari ketiga percobaan, dapat disimpulkan bahwa model K-Nearest Neighbor (KNN) secara keseluruhan memberikan performa yang paling konsisten dan optimal pada data testing. Pada Percobaan 1, KNN mencapai akurasi testing sebesar 85%, sama seperti SVM namun lebih tinggi dibanding Random Forest yang hanya 77.5%. Pada Percobaan 2, performa KNN sedikit menurun menjadi 77.5%, sedangkan SVM dan Random Forest masing-masing mencapai 85% dan 82.5%. Di Percobaan 3, KNN kembali stabil pada 85%, sedangkan SVM turun ke 80% dan Random Forest kembali mengalami penurunan hingga 72.5%. Hasil ini menunjukkan bahwa KNN cenderung lebih stabil terhadap variasi preprocessing yang digunakan pada ketiga percobaan. KNN memanfaatkan kesamaan fitur antar data secara langsung, sehingga mampu bekerja optimal pada dataset dengan ukuran menengah seperti yang digunakan dalam projek ini.
+
+#### Model KNN Percobaan 3
+
+![Percobaan 3](https://i.imgur.com/HBuChhQ.png)
+![Percobaan 3](https://i.imgur.com/WEdNbub.png)
